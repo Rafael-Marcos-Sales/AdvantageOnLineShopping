@@ -16,7 +16,6 @@ public class BasePage {
 	
 	public void inicio() {
 		System.setProperty("webdriver.chrome.driver" , "C:/chromedriver.exe");
-		
 		driver = new ChromeDriver();
 		driver.get("https://www.advantageonlineshopping.com/#/");
 		driver.manage().window().maximize();
