@@ -1,10 +1,10 @@
-package testes;
+package br.com.rsinet.hub.tdd.testes;
 
 import org.openqa.selenium.WebDriver;
 
-import PageObjects.CriarConta_PO;
-import PageObjects.Login_PO;
 import br.com.rsi.hub.bdd.utils.Driver;
+import br.com.rsinet.hub.tdd.pageObjects.CriarConta_PO;
+import br.com.rsinet.hub.tdd.pageObjects.Login_PO;
 
 public class Testes {
 	
