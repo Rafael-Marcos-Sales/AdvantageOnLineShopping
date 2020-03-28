@@ -62,7 +62,8 @@ public class CriarConta_PO {
 		WebElement addressRegisterPage = driver.findElement(By.name("addressRegisterPage"));
 		WebElement txtestado = driver.findElement(By.name("state_/_province_/_regionRegisterPage"));
 		WebElement postal_codeRegisterPage = driver.findElement(By.name("postal_codeRegisterPage"));
-		
+		WebElement boxconfirm = driver.findElement(By.name("i_agree"));
+		WebElement btnregister_btnundefined = driver.findElement(By.id("register_btnundefined"));
 
 		//WebDriverWait wait = new WebDriverWait(driver, 70);
 		
@@ -72,6 +73,8 @@ public class CriarConta_PO {
 		addressRegisterPage.sendKeys("Rua Pio XII,245");
 		txtestado.sendKeys("São Paulo");
 		postal_codeRegisterPage.sendKeys("01322-030");
+		boxconfirm.click();
+		btnregister_btnundefined.click();
 		
 	}
 	
